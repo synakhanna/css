@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+body,html {
+padding:0px;
+margin:20px;
+background-color: #FFC0BC;
+border: 10px solid;
+border-color: #876848;
+border-width: vmax;
+}
+
+.text {
+	color: #9B80E0;
+	margin: 25px;
+	font-size: 30px;
+}
+
+.square {
+  background-color: #8FC0BC;
+  height: 20vh;
+	width: 11vw;
+
+}
+
+.circle {
+  background-color: #69A9FA;
+  border-radius: 50%;
+}
+
+.parallelogram {
+	translate: 27px;
+	transform: skew(20deg);
+	background: #737558;
+}
+
+.trapezoid {
+	width: 11vw;
+	height: 12vh;
+	margin: 25px;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-bottom: 70px solid #E09280;
+}
+
+.circle, .parallelogram {
+	height: 20vh;
+	width: 11vw;
+	margin: 25px;
+}
+
+.shapes .square {
+	margin: 25px;
+}
+
+.shapes > .circle {
+	background-color: white;
+}
+p:hover{
+  background-color: yellow;
+}
